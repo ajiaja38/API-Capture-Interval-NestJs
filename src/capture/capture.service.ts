@@ -20,7 +20,7 @@ export class CaptureService {
 
     if (!capture) {
       throw new NotFoundException(
-        'Gagal mendapatkan capture terbaru, deviceId tidak ditemukan!',
+        'Gagal mendapatkan capture terbaru, deviceId tidak ditemukan!.',
       );
     }
 
